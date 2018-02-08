@@ -6,137 +6,128 @@
         crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>My Portfolio</title>
 </head>
 
 <body>
-    <div class="wrapper wrapper_about-fix">
+    <!-- <div class="wrapper wrapper_about-fix"> -->
 
-        <!-- NAVIGATION -->
+    <!-- BOOTSTRAP NAVIGATION -->
 
-        <nav class="navbar navbar-default">
-            <div class="container">
-                <div class="navbar-header">
-                    <a class="navbar-brand">Liana Mancini</a>
-                </div>
-                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                    <ul class="nav navbar-nav navbar-right">
-                        <li>
-                            <a href="index.html">About</a>
-                        </li>
-                        <li>
-                            <a href="portfolio.html">Portfolio</a>
-                        </li>
-                        <li>
-                            <a href="contact.html">Contact</a>
-                        </li>
-                    </ul>
-                </div>
+    <nav class="navbar navbar-default">
+        <div class="container nav-container">
+            <div class="navbar-header text-center">
+                <h2>Liana Mancini</h2>
             </div>
-        </nav>
-
-
-        <!-- <nav class="navbar">
-            <div class="navbar-content">
-                <div class="name">
-                    <h1>Liana Mancini</h1>
-                </div>
-                <ul>
-                    <li class="menu-link">
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="nav-link">
                         <a href="index.html">About</a>
                     </li>
-                    <li class="menu-link" id="menu-link_portfolio">
+                    <li class="nav-link nav-link_portfolio">
                         <a href="portfolio.html">Portfolio</a>
                     </li>
-                    <li class="menu-link">
+                    <li class="nav-link">
                         <a href="contact.html">Contact</a>
                     </li>
-                </ul> 
-            </div> 
-        </nav> -->
-
-        <!-- PAGE CONTENT -->
-
-        <!-- BOOSTRAP -->
-        <div class="container">
-            <div class="row">
-                <div class="col-md-8">
-                    <div class="page-header">
-                        <h1>About Me</h1>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-3">
-                            <img src="http://placehold.it/150x150" alt="Placeholder" class="img-thumbnail">
-                        </div>
-                        <div class="col-md-9">
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque dignissim, felis ut dictum tristique, nibh erat feugiat
-                                libero, sit amet fringilla mauris velit in mi. Duis tempus felis vitae felis vulputate pretium.
-                                Nullam commodo, est ac auctor ornare, eros nisi fringilla sem, non pulvinar tortor lorem
-                                sit amet sem. Aenean quis erat facilisis, porttitor ex cursus, luctus enim. Curabitur et
-                                metus in lacus tristique sagittis et in lorem. Nunc id nisi et neque fringilla ultricies.
-                                Aenean at feugiat elit, a posuere justo. Pellentesque egestas dolor et nisi venenatis, nec
-                                fermentum urna fringilla. Etiam efficitur porta purus, id posuere sem congue a.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-md-4">
-                    <div class="panel panel-default">
-                        <div class="panel-heading">
-                            <h3 class="panel-title">Panel</h3>
-                        </div>
-                        <div class="panel-body">
-                            Panel content
-                        </div>
-                    </div>
-                </div>
+                </ul>
             </div>
         </div>
+    </nav>
 
 
-        <!-- OLD CODE -->
-        <!-- <section class="page-content"> -->
+    <!-- PAGE CONTENT -->
 
-            <!-- "ABOUT" MAIN PANEL -->
-            <!-- <div class="main-content">
-                <h2 class="subhead">About Me</h2>
-                <hr>
-                <img id="bio-image" src="assets/images/sunglasses.jpg" alt="me">
-                <p class="about-text">I love building things. Solving problems. Tinkering. Creating. Getting lost in code and finding my way out.</p>
-                <p class="about-text">My background is in community organizing, mobilizing people toward a common cause. I loved that work because
-                    it was fundamentally about getting people
-                    <em>pumped</em> to go out into the world and share what they cared about. As a developer, I can do that same
-                    thing thousands, even millions, of times over, creating applications that have the potential for a massive
-                    reach.</p>
-            </div> -->
+    <!-- BOOTSTRAP -->
+    <div class="container main-container">
+
+        <div class="row">
+
+            <!-- MAIN CONTENT PANEL "ABOUT ME" -->
+            <div class="col-md-8">
+                <div class="panel panel_main-content">
+                    <div class="panel-heading">
+                        <h1 class="panel-title">About Me</h1>
+                    </div>
+                    <div class="panel-body">
+                        <!-- <div class="row">
+                            <div class="col-md-3"> -->
+                                <img src="assets/images/sunglasses.jpg" alt="me" class="img-responsive pull-left bio-image">
+                            <!-- </div>
+                            <div class="col-md-9"> -->
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque dignissim, felis ut dictum tristique, nibh erat feugiat
+                                    libero, sit amet fringilla mauris velit in mi. Duis tempus felis vitae felis vulputate
+                                    pretium. Nullam commodo, est ac auctor ornare, eros nisi fringilla sem, non pulvinar
+                                    tortor lorem sit amet sem. Aenean quis erat facilisis, porttitor ex cursus, luctus enim.
+                                    Curabitur et metus in lacus tristique sagittis et in lorem. Nunc id nisi et neque fringilla
+                                    ultricies. Aenean at feugiat elit, a posuere justo. Pellentesque egestas dolor et nisi
+                                    venenatis, nec fermentum urna fringilla. Etiam efficitur porta purus, id posuere sem
+                                    congue a.
+                                </p>
+                                <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque dignissim, felis ut dictum tristique, nibh erat feugiat
+                                        libero, sit amet fringilla mauris velit in mi. Duis tempus felis vitae felis vulputate
+                                        pretium. Nullam commodo, est ac auctor ornare, eros nisi fringilla sem, non pulvinar
+                                        tortor lorem sit amet sem. Aenean quis erat facilisis, porttitor ex cursus, luctus enim.
+                                        Curabitur et metus in lacus tristique sagittis et in lorem. Nunc id nisi et neque fringilla
+                                        ultricies. Aenean at feugiat elit, a posuere justo. Pellentesque egestas dolor et nisi
+                                        venenatis, nec fermentum urna fringilla. Etiam efficitur porta purus, id posuere sem
+                                        congue a.
+                                    </p>
+    
+                            <!-- </div>
+                        </div> -->
+                        <!-- row -->
+                    </div>
+                    <!-- panel-body -->
+                </div>
+                <!-- panel panel-default -->
+            </div>
+            <!-- col-md-8 -->
 
             <!-- SOCIAL MEDIA SIDEBAR -->
-            <!-- <div class="connect-social">
-                <h3 class="subhead">Connect with Me</h3>
-                <hr>
-                <a href="https://www.github.com/lianagitsit">
-                    <span class="github icon">
-                        <i class="fa fa-github-square fa-5x" aria-hidden="true"></i>
-                    </span>
-                </a>
-                <a href="https://www.linkedin.com/in/liana-mancini-0b401615/">
-                    <span class="linkedin icon">
-                        <i class="fa fa-linkedin-square fa-5x" aria-hidden="true"></i>
-                    </span>
-                </a>
-                <a href="https://stackoverflow.com/users/9111936/liana-emm?tab=profile">
-                    <span class="stackoverflow icon">
-                        <i class="fa fa-stack-overflow fa-5x" aria-hidden="true"></i>
-                    </span>
-                </a>
+            <div class="col-md-4">
+                <div class="panel panel_social-media">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">Connect with Me</h3>
+                    </div>
+                    <div class="panel-body">
+                        <a href="https://www.github.com/lianagitsit">
+                            <span class="github icon">
+                                <i class="fa fa-github-square fa-5x" aria-hidden="true"></i>
+                            </span>
+                        </a>
+                        <a href="https://www.linkedin.com/in/liana-mancini-0b401615/">
+                            <span class="linkedin icon">
+                                <i class="fa fa-linkedin-square fa-5x" aria-hidden="true"></i>
+                            </span>
+                        </a>
+                        <a href="https://stackoverflow.com/users/9111936/liana-emm?tab=profile">
+                            <span class="stackoverflow icon">
+                                <i class="fa fa-stack-overflow fa-5x" aria-hidden="true"></i>
+                            </span>
+                        </a>
+
+                    </div>
+                </div>
+                <!-- panel panel-default -->
             </div>
-        </section>
-    </div> -->
+            <!-- col-md-4 -->
+
+        </div>
+        <!-- row -->
+    </div>
+    <!-- container -->
+
 
     <!-- FOOTER -->
-    <footer id="about-footer">&copy; Copyright 2018 Liana Mancini</footer>
+    <footer class="footer">
+        <div class="container">
+            <p class="text-center">&copy; Copyright 2018 Liana Mancini</p>
+        </div>
+    </footer>
 </body>
 
 </html>

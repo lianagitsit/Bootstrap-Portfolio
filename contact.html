@@ -4,7 +4,7 @@
 <head>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
         crossorigin="anonymous">
-    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- <link rel="stylesheet" href="assets/css/style.css"> -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>My Portfolio</title>
 </head>
@@ -12,23 +12,26 @@
 <body>
     <div class="wrapper">
 
-        <!-- NAVIGATION -->
-        <nav class="navbar">
-            <div class="navbar-content">
-                <div class="name">
-                    <h1>Liana Mancini</h1>
+        <!-- BOOTSTRAP NAVIGATION -->
+
+        <nav class="navbar navbar-default">
+            <div class="container">
+                <div class="navbar-header">
+                    <a class="navbar-brand">Liana Mancini</a>
                 </div>
-                <ul>
-                    <li class="menu-link">
-                        <a href="index.html">About</a>
-                    </li>
-                    <li class="menu-link" id="menu-link_portfolio">
-                        <a href="portfolio.html">Portfolio</a>
-                    </li>
-                    <li class="menu-link">
-                        <a href="contact.html">Contact</a>
-                    </li>
-                </ul>
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li>
+                            <a href="index.html">About</a>
+                        </li>
+                        <li>
+                            <a href="portfolio.html">Portfolio</a>
+                        </li>
+                        <li>
+                            <a href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </nav>
 
