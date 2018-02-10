@@ -4,105 +4,161 @@
 <head>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
         crossorigin="anonymous">
-    <!-- <link rel="stylesheet" href="assets/css/style.css"> -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>My Portfolio</title>
 </head>
-
+            
 <body>
-    <div class="wrapper">
 
-        <!-- NAVIGATION -->
-        <nav class="navbar">
-            <div class="navbar-content">
-                <div class="name">
-                    <h1>Liana Mancini</h1>
+    <!-- BOOTSTRAP NAVIGATION -->
+
+    <nav class="navbar navbar-default">
+            <div class="container-fluid nav-container padding-fix">
+                <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span> 
+                        </button>
+                    <h2 id="brand">Liana Mancini</h2>
                 </div>
-                <ul>
-                    <li class="menu-link">
-                        <a href="index.html">About</a>
-                    </li>
-                    <li class="menu-link" id="menu-link_portfolio">
-                        <a href="portfolio.html">Portfolio</a>
-                    </li>
-                    <li class="menu-link">
-                        <a href="contact.html">Contact</a>
-                    </li>
-                </ul>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="nav-link">
+                            <a href="index.html">About</a>
+                        </li>
+                        <li class="nav-link nav-link_portfolio">
+                            <a href="portfolio.html">Portfolio</a>
+                        </li>
+                        <li class="nav-link">
+                            <a href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </nav>
 
-        <!-- PAGE CONTENT -->
-        <section class="page-content">
 
-            <!-- PORTFOLIO PROJECTS MAIN PANEL -->
-            <div class="main-content">
-                <h2 class="subhead">Portfolio</h2>
-                <hr>
-                <span id="project-images">
-                    <a href="#">
-                        <div id="project-one_container" class="project-container">
-                            <div class="banner">Project One</div>
-                            <img id="project-one" class="project" src="assets/images/frenchfries.jpeg" alt="project one">
-                        </div>
-                    </a>
+    <!-- BOOTSTRAP -->
+    <div class="container-fluid main-container padding-fix">
 
-                    <a href="#">
-                        <div id="project-two_container" class="project-container">
-                            <div class="banner">Project Two</div>
-                            <img id="project-two" class="project" src="assets/images/laptop.jpeg" alt="project two">
-                        </div>
-                    </a>
+        <div class="row">
 
-                    <a href="#">
-                        <div id="project-three_container" class="project-container">
-                            <div class="banner">Project Three</div>
-                            <img id="project-three" class="project" src="assets/images/suit-banana.jpeg" alt="project three">
-                        </div>
-                    </a>
-
-                    <a href="#">
-                        <div id="project-four_container" class="project-container">
-                            <div class="banner">Project Four</div>
-                            <img id="project-four" class="project" src="assets/images/trumpet.jpeg" alt="project four">
-                        </div>
-                    </a>
-
-                    <a href="#">
-                        <div id="project-five_container" class="project-container">
-                            <div class="banner">Project Five</div>
-                            <img id="project-five" class="project" src="assets/images/duck.jpeg" alt="project five">
-                    </a>
+            <!-- MAIN CONTENT PANEL "PORTFOLIO" -->
+            <div class="col-xs-12 col-md-8">
+                <div class="panel panel_main-content pull-left">
+                    <div class="panel-heading padding-fix">
+                        <h1 class="panel-title">My Portfolio</h1>
                     </div>
-                    </a>
-                </span>
-            </div>
+                    <hr>
+                    <div class="panel-body padding-fix">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <a href="#">
+                                    <div id="project-one_container" class="project-container">
+                                        <div class="banner">Project One</div>
+                                        <img id="project-one" class="project" src="assets/images/frenchfries.jpeg" alt="project one">
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="col-md-6">
+                                <a href="#">
+                                    <div id="project-two_container" class="project-container">
+                                        <div class="banner">Project Two</div>
+                                        <img id="project-two" class="project" src="assets/images/laptop.jpeg" alt="project two">
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-6">
+                                <a href="#">
+                                    <div id="project-three_container" class="project-container">
+                                        <div class="banner">Project Three</div>
+                                        <img id="project-three" class="project" src="assets/images/suit-banana.jpeg" alt="project three">
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="col-md-6">
+                                <a href="#">
+                                    <div id="project-four_container" class="project-container">
+                                        <div class="banner">Project Four</div>
+                                        <img id="project-four" class="project" src="assets/images/trumpet.jpeg" alt="project four">
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-6">
+                                <a href="#">
+                                    <div id="project-five_container" class="project-container">
+                                        <div class="banner">Project Five</div>
+                                        <img id="project-five" class="project" src="assets/images/duck.jpeg" alt="project five">
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+
+                    </div> <!-- panel-body -->
+                </div> <!-- panel_main-content -->
+            </div> <!-- main content col-md-8 -->
+
+            <div class="clearfix visible-xs-block"></div>
 
             <!-- SOCIAL MEDIA SIDEBAR -->
-            <div class="connect-social">
-                <h3 class="subhead">Connect with Me</h3>
-                <hr>
-                <a href="https://www.github.com/lianagitsit">
-                    <span class="github icon">
-                        <i class="fa fa-github-square fa-5x" aria-hidden="true"></i>
-                    </span>
-                </a>
-                <a href="https://www.linkedin.com/in/liana-mancini-0b401615/">
-                    <span class="linkedin icon">
-                        <i class="fa fa-linkedin-square fa-5x" aria-hidden="true"></i>
-                    </span>
-                </a>
-                <a href="https://stackoverflow.com/users/9111936/liana-emm?tab=profile">
-                    <span class="stackoverflow icon">
-                        <i class="fa fa-stack-overflow fa-5x" aria-hidden="true"></i>
-                    </span>
-                </a>
-            </div>
-        </section>
-    </div>
+            <div class="col-xs-12 col-md-4">
+                <div class="panel panel_social-media pull-right">
+                    <div class="panel-heading padding-fix">
+                        <h3 class="panel-title panel-title_social">Connect with Me</h3>
+                    </div>
+                    <hr>
+                    <div class="panel-body padding-fix text-center">
+                        <div class="row">
 
-    <!-- FOOTER -->
-    <footer>&copy; Copyright 2018 Liana Mancini</footer>
+                            <!-- github -->
+                            <div class="col-md-4 padding-fix">
+                                <a href="https://www.github.com/lianagitsit">
+                                    <i class="fa fa-github-square fa-5x" aria-hidden="true"></i>
+                                </a>
+                            </div>
+
+                            <!-- linkedin -->
+                            <div class="col-md-4 padding-fix">
+                                <a href="https://www.linkedin.com/in/liana-mancini-0b401615/">
+                                    <i class="fa fa-linkedin-square fa-5x" aria-hidden="true"></i>
+                                </a>
+                            </div>
+
+                            <!-- stackoverflow -->
+                            <div class="col-md-4 padding-fix">
+                                <a href="https://stackoverflow.com/users/9111936/liana-emm?tab=profile">
+                                    <i class="fa fa-stack-overflow fa-5x hoverable" aria-hidden="true"></i>
+                                </a>
+                            </div>
+
+                        </div> <!-- row -->
+                    </div> <!-- panel-body -->
+                </div> <!-- panel panel_social-media -->
+            
+            </div> <!-- sidebar col-md-4 -->
+
+        </div> <!-- main row -->
+
+    </div> <!-- main-container -->
+
+    <!-- FOOTER (ported) -->
+    <footer class="footer">
+        <div class="container">
+            <p class="text-center">&copy; Copyright 2018 Liana Mancini</p>
+        </div>
+    </footer>
+
 </body>
 
 </html>
