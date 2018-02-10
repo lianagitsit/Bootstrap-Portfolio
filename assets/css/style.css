@@ -292,7 +292,7 @@ textarea {
 ::placeholder {
     color: lightgray;
     font-size: 14px;
-}
+}*/
 
 #submit-button {
     background-color: #4aaaa5;
@@ -305,7 +305,7 @@ textarea {
 
 #submit-button:hover {
     background-color: #5accc6;
-} */
+} 
 
 
 /* Portfolio images */
