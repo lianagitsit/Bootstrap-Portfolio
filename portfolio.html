@@ -15,6 +15,22 @@
     <!-- BOOTSTRAP NAVIGATION -->
 
     <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <h2 id="brand">Liana Mancini</h2>
+            </div>
+            <!-- <div class="collapse navbar-collapse" id="myNavbar"> -->
+            <ul class="nav navbar-nav navbar-right">
+                <li class="active"><a href="#">Home</a></li>
+                <li><a href="index.html">About</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <!-- </div> -->
+        </div>
+    </nav>
+
+    <!-- <nav class="navbar navbar-default">
             <div class="container-fluid nav-container padding-fix">
                 <div class="navbar-header">
                         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
@@ -38,68 +54,68 @@
                     </ul>
                 </div>
             </div>
-        </nav>
+        </nav> -->
 
 
     <!-- BOOTSTRAP -->
-    <div class="container-fluid main-container padding-fix">
+    <div class="container-fluid padding-fix">
 
         <div class="row">
 
             <!-- MAIN CONTENT PANEL "PORTFOLIO" -->
-            <div class="col-xs-12 col-md-8">
-                <div class="panel panel_main-content pull-left">
+            <div class="col-xs-12 col-md-7 col-md-offset-1">
+                <div class="panel panel_main-content">
                     <div class="panel-heading padding-fix">
                         <h1 class="panel-title">My Portfolio</h1>
                     </div>
                     <hr>
                     <div class="panel-body padding-fix">
                         <div class="row">
-                            <div class="col-md-6">
+                            <div class="col-xs-12 col-md-6">
                                 <a href="#">
                                     <div id="project-one_container" class="project-container">
                                         <div class="banner">Project One</div>
-                                        <img id="project-one" class="project" src="assets/images/frenchfries.jpeg" alt="project one">
+                                        <img id="project-one" class="project img-responsive center-block" src="assets/images/frenchfries.jpeg" alt="project one">
                                     </div>
                                 </a>
                             </div>
 
-                            <div class="col-md-6">
+                            <div class="col-xs-12 col-md-6">
                                 <a href="#">
                                     <div id="project-two_container" class="project-container">
                                         <div class="banner">Project Two</div>
-                                        <img id="project-two" class="project" src="assets/images/laptop.jpeg" alt="project two">
+                                        <img id="project-two" class="project img-responsive center-block" src="assets/images/laptop.jpeg" alt="project two">
                                     </div>
                                 </a>
                             </div>
                         </div>
 
                         <div class="row">
-                            <div class="col-md-6">
+                            <div class="col-xs-12 col-md-6">
                                 <a href="#">
                                     <div id="project-three_container" class="project-container">
                                         <div class="banner">Project Three</div>
-                                        <img id="project-three" class="project" src="assets/images/suit-banana.jpeg" alt="project three">
+                                        <img id="project-three" class="project img-responsive" src="assets/images/suit-banana.jpeg" alt="project three">
                                     </div>
                                 </a>
                             </div>
 
-                            <div class="col-md-6">
+                            <div class="col-xs-12 col-md-6">
                                 <a href="#">
                                     <div id="project-four_container" class="project-container">
                                         <div class="banner">Project Four</div>
-                                        <img id="project-four" class="project" src="assets/images/trumpet.jpeg" alt="project four">
+                                        <img id="project-four" class="project img-responsive" src="assets/images/trumpet.jpeg" alt="project four">
                                     </div>
                                 </a>
                             </div>
                         </div>
 
                         <div class="row">
-                            <div class="col-md-6">
+                            <div class="col-xs-12 col-md-6">
                                 <a href="#">
                                     <div id="project-five_container" class="project-container">
                                         <div class="banner">Project Five</div>
-                                        <img id="project-five" class="project" src="assets/images/duck.jpeg" alt="project five">
+                                        <img id="project-five" class="project img-responsive" src="assets/images/duck.jpeg" alt="project five">
                                     </div>
                                 </a>
                             </div>
@@ -112,37 +128,23 @@
             <div class="clearfix visible-xs-block"></div>
 
             <!-- SOCIAL MEDIA SIDEBAR -->
-            <div class="col-xs-12 col-md-4">
-                <div class="panel panel_social-media pull-right">
+            <div class="col-xs-12 col-md-3 col-offset-1">
+                <div class="panel panel_social-media">
                     <div class="panel-heading padding-fix">
                         <h3 class="panel-title panel-title_social">Connect with Me</h3>
                     </div>
                     <hr>
                     <div class="panel-body padding-fix text-center">
-                        <div class="row">
+                            <a href="https://www.github.com/lianagitsit">
+                                <i class="fa fa-github-square fa-5x" aria-hidden="true"></i>
+                            </a>
+                            <a href="https://www.linkedin.com/in/liana-mancini-0b401615/">
+                                <i class="fa fa-linkedin-square fa-5x" aria-hidden="true"></i>
+                            </a>
+                            <a href="https://stackoverflow.com/users/9111936/liana-emm?tab=profile">
+                                <i class="fa fa-stack-overflow fa-5x" aria-hidden="true"></i>
+                            </a>
 
-                            <!-- github -->
-                            <div class="col-md-4 padding-fix">
-                                <a href="https://www.github.com/lianagitsit">
-                                    <i class="fa fa-github-square fa-5x" aria-hidden="true"></i>
-                                </a>
-                            </div>
-
-                            <!-- linkedin -->
-                            <div class="col-md-4 padding-fix">
-                                <a href="https://www.linkedin.com/in/liana-mancini-0b401615/">
-                                    <i class="fa fa-linkedin-square fa-5x" aria-hidden="true"></i>
-                                </a>
-                            </div>
-
-                            <!-- stackoverflow -->
-                            <div class="col-md-4 padding-fix">
-                                <a href="https://stackoverflow.com/users/9111936/liana-emm?tab=profile">
-                                    <i class="fa fa-stack-overflow fa-5x hoverable" aria-hidden="true"></i>
-                                </a>
-                            </div>
-
-                        </div> <!-- row -->
                     </div> <!-- panel-body -->
                 </div> <!-- panel panel_social-media -->
             
