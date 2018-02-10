@@ -4,8 +4,8 @@
 <head>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
         crossorigin="anonymous">
-    <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>My Portfolio</title>
 </head>
@@ -16,7 +16,7 @@
     <!-- BOOTSTRAP NAVIGATION -->
 
     <nav class="navbar navbar-default">
-        <div class="container nav-container">
+        <div class="container nav-container padding-fix">
             <div class="navbar-header text-center">
                 <h2>Liana Mancini</h2>
             </div>
@@ -40,79 +40,75 @@
     <!-- PAGE CONTENT -->
 
     <!-- BOOTSTRAP -->
-    <div class="container main-container">
+    <div class="container main-container padding-fix">
 
         <div class="row">
 
             <!-- MAIN CONTENT PANEL "ABOUT ME" -->
             <div class="col-md-8">
-                <div class="panel panel_main-content">
-                    <div class="panel-heading">
+                <div class="panel panel_main-content pull-left">
+                    <div class="panel-heading padding-fix">
                         <h1 class="panel-title">About Me</h1>
                     </div>
-                    <div class="panel-body">
-                        <!-- <div class="row">
-                            <div class="col-md-3"> -->
-                                <img src="assets/images/sunglasses.jpg" alt="me" class="img-responsive pull-left bio-image">
-                            <!-- </div>
-                            <div class="col-md-9"> -->
-                                <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque dignissim, felis ut dictum tristique, nibh erat feugiat
-                                    libero, sit amet fringilla mauris velit in mi. Duis tempus felis vitae felis vulputate
-                                    pretium. Nullam commodo, est ac auctor ornare, eros nisi fringilla sem, non pulvinar
-                                    tortor lorem sit amet sem. Aenean quis erat facilisis, porttitor ex cursus, luctus enim.
-                                    Curabitur et metus in lacus tristique sagittis et in lorem. Nunc id nisi et neque fringilla
-                                    ultricies. Aenean at feugiat elit, a posuere justo. Pellentesque egestas dolor et nisi
-                                    venenatis, nec fermentum urna fringilla. Etiam efficitur porta purus, id posuere sem
-                                    congue a.
-                                </p>
-                                <p>
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque dignissim, felis ut dictum tristique, nibh erat feugiat
-                                        libero, sit amet fringilla mauris velit in mi. Duis tempus felis vitae felis vulputate
-                                        pretium. Nullam commodo, est ac auctor ornare, eros nisi fringilla sem, non pulvinar
-                                        tortor lorem sit amet sem. Aenean quis erat facilisis, porttitor ex cursus, luctus enim.
-                                        Curabitur et metus in lacus tristique sagittis et in lorem. Nunc id nisi et neque fringilla
-                                        ultricies. Aenean at feugiat elit, a posuere justo. Pellentesque egestas dolor et nisi
-                                        venenatis, nec fermentum urna fringilla. Etiam efficitur porta purus, id posuere sem
-                                        congue a.
-                                    </p>
-    
-                            <!-- </div>
-                        </div> -->
-                        <!-- row -->
+                    <hr>
+                    <div class="panel-body padding-fix">
+                        <img src="assets/images/sunglasses.jpg" alt="me" class="img-responsive pull-left bio-image">
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque dignissim, felis ut dictum tristique, nibh erat feugiat
+                            libero, sit amet fringilla mauris velit in mi. Duis tempus felis vitae felis vulputate pretium.
+                            Nullam commodo, est ac auctor ornare, eros nisi fringilla sem, non pulvinar tortor lorem sit
+                            amet sem. Aenean quis erat facilisis, porttitor ex cursus, luctus enim. Curabitur et metus in
+                            lacus tristique sagittis et in lorem. Nunc id nisi et neque fringilla ultricies. Aenean at feugiat
+                            elit, a posuere justo. Pellentesque egestas dolor et nisi venenatis, nec fermentum urna fringilla.
+                            Etiam efficitur porta purus, id posuere sem congue a.
+                        </p>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque dignissim, felis ut dictum tristique, nibh erat feugiat
+                            libero, sit amet fringilla mauris velit in mi. Duis tempus felis vitae felis vulputate pretium.
+                            Nullam commodo, est ac auctor ornare, eros nisi fringilla sem, non pulvinar tortor lorem sit
+                            amet sem. Aenean quis erat facilisis, porttitor ex cursus, luctus enim. Curabitur et metus in
+                            lacus tristique sagittis et in lorem. Nunc id nisi et neque fringilla ultricies. Aenean at feugiat
+                            elit, a posuere justo. Pellentesque egestas dolor et nisi venenatis, nec fermentum urna fringilla.
+                            Etiam efficitur porta purus, id posuere sem congue a.
+                        </p>
                     </div>
                     <!-- panel-body -->
                 </div>
-                <!-- panel panel-default -->
+                <!-- panel panel_main-content -->
             </div>
             <!-- col-md-8 -->
 
             <!-- SOCIAL MEDIA SIDEBAR -->
             <div class="col-md-4">
-                <div class="panel panel_social-media">
-                    <div class="panel-heading">
-                        <h3 class="panel-title">Connect with Me</h3>
+                <div class="panel panel_social-media pull-right">
+                    <div class="panel-heading padding-fix">
+                        <h3 class="panel-title panel-title_social">Connect with Me</h3>
                     </div>
-                    <div class="panel-body">
-                        <a href="https://www.github.com/lianagitsit">
-                            <span class="github icon">
-                                <i class="fa fa-github-square fa-5x" aria-hidden="true"></i>
-                            </span>
-                        </a>
-                        <a href="https://www.linkedin.com/in/liana-mancini-0b401615/">
-                            <span class="linkedin icon">
-                                <i class="fa fa-linkedin-square fa-5x" aria-hidden="true"></i>
-                            </span>
-                        </a>
-                        <a href="https://stackoverflow.com/users/9111936/liana-emm?tab=profile">
-                            <span class="stackoverflow icon">
-                                <i class="fa fa-stack-overflow fa-5x" aria-hidden="true"></i>
-                            </span>
-                        </a>
+                    <hr>
+                    <div class="panel-body padding-fix text-center">
+                        <div class="row">
 
+                            <div class="col-md-4 padding-fix">
+                                <a href="https://www.github.com/lianagitsit">
+                                    <i class="fa fa-github-square fa-5x" aria-hidden="true"></i>
+                                </a>
+                            </div>
+
+                            <div class="col-md-4 padding-fix">
+                                <a href="https://www.linkedin.com/in/liana-mancini-0b401615/">
+                                    <i class="fa fa-linkedin-square fa-5x" aria-hidden="true"></i>
+                                </a>
+                            </div>
+
+                            <div class="col-md-4 padding-fix">
+                                <a href="https://stackoverflow.com/users/9111936/liana-emm?tab=profile">
+                                    <i class="fa fa-stack-overflow fa-5x hoverable" aria-hidden="true"></i>
+                                </a>
+                            </div>
+
+                        </div> 
                     </div>
-                </div>
-                <!-- panel panel-default -->
+                </div> <!-- panel panel_social-media -->
             </div>
             <!-- col-md-4 -->
 
