@@ -49,12 +49,12 @@ h2 {
 }
 
 ul.nav {
-    margin-top: 35px;
+    margin-top: 20px;
 }
 
-li.nav-link > a {
-    padding-top: 0 !important;
-    padding-bottom: 0 !important;
+li > a {
+    /* padding-top: 0 !important;
+    padding-bottom: 0 !important; */
     font-size: 18px;
 }
 
@@ -141,8 +141,6 @@ a:visited {
 
 img.project {
     margin-bottom: 55px;
-    /* width: 275px;
-    height: 205px; */
     width: 100%;
     height: 100%;
 }
@@ -174,6 +172,7 @@ img.project {
 .panel_social-media {
     width: 100%;
     padding: 30px;
+    margin-bottom: 80px;
 }
 
 .panel_social-media > hr {
@@ -210,7 +209,8 @@ img.project {
     opacity: .7;
 }
 
-.fa-linkedin-square.fa-5x:hover {
+.fa-linkedin-square.fa-5x:hover
+ {
     color: #2d7ab4;
     opacity: 1;
 }
